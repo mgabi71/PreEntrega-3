@@ -1,0 +1,45 @@
+footer{
+    padding: 30px;
+    background:linear-gradient(to right, #9426fc, #c8bbd4);
+    margin-top: 0px;
+    color: #252525;
+    font-size: 15px;
+    text-align:center
+}
+
+
+
+@media all and (max-width:320px){ 
+    body{
+        background:#9426fc;
+    }
+    .container-md{
+        .row{
+            display: block;
+            justify-content: center;
+            width: 100%;
+        }
+    }
+
+    .container-img{
+        img{
+            display: flex;
+            align-items: center;
+            width: 80%;
+            padding: 20px;
+            margin-top: 0%;
+            margin-bottom: 0;
+    
+        }
+    }
+    .container-info-product{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: 80%;
+        padding: 20px;
+    }
+    .table{
+        font-size:15px;
+    }
+}
